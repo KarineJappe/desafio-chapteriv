@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-16T23:34:01.044Z",
-    "end": "2021-10-16T23:34:24.227Z",
-    "duration": 23183,
+    "start": "2021-10-16T23:59:44.603Z",
+    "end": "2021-10-17T00:00:05.973Z",
+    "duration": 21370,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ea8bea9d-4159-4e5a-b041-76b8101d7b46",
+      "uuid": "50b4511c-bf26-4bd0-9990-32cfbdad6dd4",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d80869a6-debe-4a91-b807-1c95465e6e06",
+          "uuid": "9dca7677-8769-4b4e-8ff0-11a5c836cac2",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando informar os dados necessários e salvar, então o cadastro será concludido.",
               "fullTitle": "Cadastro Quando informar os dados necessários e salvar, então o cadastro será concludido.",
               "timedOut": null,
-              "duration": 20218,
+              "duration": 18924,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://automationpractice.com/index.php');\ncy.get('a.login').click();\nlet email = chance.email();\ncy.get('input[name=email_create]').type(email);\ncy.get('i.icon-user').click();\ncy.get('input[name=id_gender][value=\"2\"]').check();\ncy.get('input[name=customer_firstname]').type(chance.first());\ncy.get('input[name=customer_lastname]').type(chance.last());\ncy.get('input[name=email]').should('have.value', email);\ncy.get('input[name=passwd]').type(chance.string(), {\n  sensitive: true\n});\ncy.get('select[name=days]').select('17');\ncy.get('select[name=months]').select(chance.month());\ncy.get('select[name=years]').select(chance.year({\n  min: 1900,\n  max: 2021\n}));\ncy.get('input[name=company]').type(chance.company());\ncy.get('input[name=address1]').type(chance.address()); // cy.get('input[name=address2]').type()\ncy.get('input[name=city]').type(chance.city());\ncy.get('select[name=id_state]').select(chance.state({\n  full: true\n}));\ncy.get('input[name=postcode]').type(chance.zip());\ncy.get('input[name=phone_mobile]').type(chance.phone());\ncy.get('input[name=alias]').type(chance.address());\ncy.get('button[name=submitAccount]').click();\ncy.url().should('contain', 'my-account');",
               "err": {},
-              "uuid": "dc6a4e37-8298-4496-8b02-604bb7571e6f",
-              "parentUUID": "d80869a6-debe-4a91-b807-1c95465e6e06",
+              "uuid": "853ea860-c0f5-4f2e-a5bc-20eab7780957",
+              "parentUUID": "9dca7677-8769-4b4e-8ff0-11a5c836cac2",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "dc6a4e37-8298-4496-8b02-604bb7571e6f"
+            "853ea860-c0f5-4f2e-a5bc-20eab7780957"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 20218,
+          "duration": 18924,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
