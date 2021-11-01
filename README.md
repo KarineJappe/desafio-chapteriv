@@ -1,6 +1,6 @@
 # Desafio Chapter IV
 
-Este repositório contém um teste automatizado do cadastro da plataforma ![automation practice](http://automationpractice.com/index.php), desenvolvido como desafio proposto no chapter IV do Agilizei Bootcamp.
+Este repositório contém um teste automatizado do cadastro da plataforma ![automation practice](http://automationpractice.com), desenvolvido como desafio proposto no chapter IV do Agilizei Bootcamp.
 
 ## Como faço para configurar?
 
