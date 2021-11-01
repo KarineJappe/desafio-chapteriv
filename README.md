@@ -1,6 +1,6 @@
 # Desafio Chapter IV
 
-Este repositório contém um teste automatizado do cadastro da plataforma ![automation practice](http://automationpractice.com), desenvolvido como desafio proposto no chapter IV do Agilizei Bootcamp.
+Este repositório contém um teste automatizado do cadastro da plataforma [automation practice](http://automationpractice.com), desenvolvido como desafio proposto no chapter IV do Agilizei Bootcamp.
 
 ## Como faço para configurar?
 
@@ -11,7 +11,7 @@ Este repositório contém um teste automatizado do cadastro da plataforma ![auto
 
 ## Relatório de execução
 
-É possível também visualizar o relatório de execução dos testes dentro desse repositório de maneira simples acessando o link: ![Desafio Chapter IV](https://karinejappe.github.io/desafio-chapteriv/).
+É possível também visualizar o relatório de execução dos testes dentro desse repositório de maneira simples acessando o link: [Desafio Chapter IV](https://karinejappe.github.io/desafio-chapteriv/).
 
 #### Abaixo o gif de execução dos testes
 ![teste](https://i.imgur.com/GzQ3NFa.gif)
