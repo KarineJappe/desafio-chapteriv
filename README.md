@@ -15,3 +15,5 @@ Este repositório contém um teste automatizado do cadastro da plataforma [autom
 
 #### Abaixo o gif de execução dos testes
 ![teste](https://i.imgur.com/GzQ3NFa.gif)
+
+[voltar para o topo](#desafio-chapter-iv)
